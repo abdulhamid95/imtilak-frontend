@@ -1,0 +1,40 @@
+{
+  "name": "imtilak",
+  "version": "1.0.0",
+  "description": "landing page for imtilak",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulhamid95/imtilak-frontend.git"
+  },
+  "author": "Abdulhamid Hamsho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulhamid95/imtilak-frontend/issues"
+  },
+  "homepage": "https://github.com/abdulhamid95/imtilak-frontend#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "sass": "^1.58.0",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.6.3"
+  }
+}
