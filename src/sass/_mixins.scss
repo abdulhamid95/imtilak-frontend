@@ -1,0 +1,17 @@
+@mixin button($bg-color, $color, $f-size, $width) {
+    background-color: $bg-color;
+    color: $color;
+    border: none;
+    font-size: $f-size;
+    font-weight: normal;
+    width: $width;
+    padding: 6px 24px;
+    transition: all .5s;
+    &:focus,
+    &:active,
+    &:active:hover,
+    &:active:focus,
+    &:hover {
+        background-color: rgba($color: $bg-color, $alpha: 0.6);
+    }
+}
